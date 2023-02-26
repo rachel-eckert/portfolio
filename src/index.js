@@ -1,12 +1,12 @@
 import { createRoot } from "react-dom/client";
+import React from "react";
+import { Provider } from "react-redux";
 
-/* Import and destructure main from src/component/index.js 
+import Main from "./components/Main.js";
+/* Import and destructure main from src/component/index.js
 and anything else you may need here */
 
+const container = document.getElementById("root");
+const root = createRoot(container);
 
-const container = document.getElementById("root")
-const root = createRoot(container)
-
-root.render(
-        {/* something(s) are missing */}
-)
+root.render(<Main />);
