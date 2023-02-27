@@ -13,7 +13,14 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import CallMadeIcon from "@mui/icons-material/CallMade";
 const Portfolio = () => {
   return (
-    <Grid container justifyContent="center" alignItems="center" id="projects">
+    <Grid
+      container
+      justifyContent="center"
+      alignItems="center"
+      id="projects"
+      sx={{
+        justifyContent: "center",
+      }}>
       <Box
         className="box"
         sx={{
@@ -24,13 +31,16 @@ const Portfolio = () => {
           textAlign: "center",
           width: "80vw",
         }}>
-        <Typography variant="h4" sx={{ mb: 10 }}>
+        <Typography variant="h4" sx={{ mt: 5 }}>
           Projects
         </Typography>
-        <Box
+
+        <Grid
+          container
+          // spacing={{ xs: 1, sm: 2, md: 3 }}
+          columns={{ xs: 2, sm: 4, md: 6 }}
           sx={{
-            display: "flex",
-            flexDirection: "row",
+            justifyContent: "center",
           }}>
           <motion.div
             whileHover={{ scale: 1.1 }}
@@ -41,7 +51,7 @@ const Portfolio = () => {
                 height: 350,
                 bgcolor: "#95D5B2",
                 color: "#081C15",
-                mr: 10,
+                m: 3,
               }}>
               <CardMedia
                 component="img"
@@ -78,7 +88,7 @@ const Portfolio = () => {
                 height: 350,
                 bgcolor: "#95D5B2",
                 color: "#081C15",
-                mr: 10,
+                m: 3,
               }}>
               <CardMedia
                 component="img"
@@ -128,6 +138,7 @@ const Portfolio = () => {
                 height: 350,
                 bgcolor: "#95D5B2",
                 color: "#081C15",
+                m: 3,
               }}>
               <CardMedia
                 component="img"
@@ -159,7 +170,7 @@ const Portfolio = () => {
               </Box>
             </Card>
           </motion.div>
-        </Box>
+        </Grid>
       </Box>
     </Grid>
   );
@@ -168,3 +179,4 @@ const Portfolio = () => {
 export default Portfolio;
 
 // cards
+
