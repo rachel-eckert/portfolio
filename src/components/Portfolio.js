@@ -55,6 +55,47 @@ const Portfolio = () => {
               }}>
               <CardMedia
                 component="img"
+                image="/honey.png"
+                sx={{ width: 350, height: 200 }}
+              />
+
+              <CardContent>
+                <Typography>Everything Honey</Typography>
+                <Typography>
+                  An e-commerce site using the PERN stack, JWT, and bCrypt to
+                  sell anything honey related.
+                </Typography>
+              </CardContent>
+              <Box
+                className="gitlink"
+                sx={{
+                  display: "flex",
+                  alignContent: "flex-end",
+                  flexDirection: "row",
+                }}>
+                <a
+                  className="gitlink"
+                  href="https://github.com/Anteater-GraceShopper/graceshopper-project"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <GitHubIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
+                </a>
+              </Box>
+            </Card>
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 200, damping: 10 }}>
+            <Card
+              sx={{
+                width: 350,
+                height: 350,
+                bgcolor: "#95D5B2",
+                color: "#081C15",
+                m: 3,
+              }}>
+              <CardMedia
+                component="img"
                 image="https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1608624324"
                 sx={{ width: 350, height: 200 }}
               />
@@ -129,47 +170,6 @@ const Portfolio = () => {
               </Box>
             </Card>
           </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 200, damping: 10 }}>
-            <Card
-              sx={{
-                width: 350,
-                height: 350,
-                bgcolor: "#95D5B2",
-                color: "#081C15",
-                m: 3,
-              }}>
-              <CardMedia
-                component="img"
-                image="/honey.png"
-                sx={{ width: 350, height: 200 }}
-              />
-
-              <CardContent>
-                <Typography>Everything Honey</Typography>
-                <Typography>
-                  An e-commerce site using the PERN stack, JWT, and bCrypt to
-                  sell anything honey related.
-                </Typography>
-              </CardContent>
-              <Box
-                className="gitlink"
-                sx={{
-                  display: "flex",
-                  alignContent: "flex-end",
-                  flexDirection: "row",
-                }}>
-                <a
-                  className="gitlink"
-                  href="https://github.com/Anteater-GraceShopper/graceshopper-project"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <GitHubIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
-                </a>
-              </Box>
-            </Card>
-          </motion.div>
         </Grid>
       </Box>
     </Grid>
@@ -179,4 +179,3 @@ const Portfolio = () => {
 export default Portfolio;
 
 // cards
-

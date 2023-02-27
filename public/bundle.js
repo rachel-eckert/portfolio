@@ -21326,7 +21326,12 @@ var About = function About() {
     sx: {
       mt: 2
     }
-  }, "I graduated in January 2022 with a B.A. in Communications from Ramapo College of New Jersey.")));
+  }, "I graduated in January 2022 with a B.A. in Communications from Ramapo College of New Jersey."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    variant: "h6",
+    sx: {
+      mt: 2
+    }
+  }, "In February of 2023, I graduated from The Grace Hopper 17 week software engineering immersive at Fullstack Academy.")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
@@ -21583,6 +21588,48 @@ var Portfolio = function Portfolio() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
     component: "img",
+    image: "/honey.png",
+    sx: {
+      width: 350,
+      height: 200
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], null, "Everything Honey"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], null, "An e-commerce site using the PERN stack, JWT, and bCrypt to sell anything honey related.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: "gitlink",
+    sx: {
+      display: "flex",
+      alignContent: "flex-end",
+      flexDirection: "row"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "gitlink",
+    href: "https://github.com/Anteater-GraceShopper/graceshopper-project",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_GitHub__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    sx: {
+      color: "#000000",
+      mr: 1,
+      mb: 1
+    }
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.div, {
+    whileHover: {
+      scale: 1.1
+    },
+    transition: {
+      type: "spring",
+      stiffness: 200,
+      damping: 10
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    sx: {
+      width: 350,
+      height: 350,
+      bgcolor: "#95D5B2",
+      color: "#081C15",
+      m: 3
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    component: "img",
     image: "https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1608624324",
     sx: {
       width: 350,
@@ -21661,49 +21708,7 @@ var Portfolio = function Portfolio() {
       mr: 1,
       mb: 1
     }
-  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.div, {
-    whileHover: {
-      scale: 1.1
-    },
-    transition: {
-      type: "spring",
-      stiffness: 200,
-      damping: 10
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    sx: {
-      width: 350,
-      height: 350,
-      bgcolor: "#95D5B2",
-      color: "#081C15",
-      m: 3
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    component: "img",
-    image: "/honey.png",
-    sx: {
-      width: 350,
-      height: 200
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], null, "Everything Honey"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], null, "An e-commerce site using the PERN stack, JWT, and bCrypt to sell anything honey related.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "gitlink",
-    sx: {
-      display: "flex",
-      alignContent: "flex-end",
-      flexDirection: "row"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "gitlink",
-    href: "https://github.com/Anteater-GraceShopper/graceshopper-project",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_GitHub__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    sx: {
-      color: "#000000",
-      mr: 1,
-      mb: 1
-    }
-  }))))))));
+  })))))))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Portfolio);
 

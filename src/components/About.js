@@ -34,6 +34,10 @@ const About = () => {
           I graduated in January 2022 with a B.A. in Communications from Ramapo
           College of New Jersey.
         </Typography>
+        <Typography variant="h6" sx={{ mt: 2 }}>
+          In February of 2023, I graduated from The Grace Hopper 17 week
+          software engineering immersive at Fullstack Academy.
+        </Typography>
       </Box>
     </Grid>
   );
