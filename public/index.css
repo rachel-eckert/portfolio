@@ -37,10 +37,12 @@ html {
   overflow-y: scroll;
   max-height: calc(100vh - 100px);
   color: #d8f3dc;
-  overflow: scroll;
+  /* overflow: scroll;*/
   overflow-x: hidden;
 }
-
+* {
+  font-family: "Courier";
+}
 .child {
   scroll-snap-align: start;
 }
@@ -57,9 +59,8 @@ html {
 
 ::-webkit-scrollbar {
   width: 0px;
-  background: transparent; /* make scrollbar transparent */
+  background: transparent; /* make scrollbar transparent*/
 }
-
 .me-img {
   max-width: 800px;
   max-height: 400px;
@@ -78,3 +79,23 @@ html {
 .icons:hover {
   color: white;
 }
+
+.gitlink {
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: end;
+  display: flex;
+  transform: translateY(-5px);
+}
+.gitlink2 {
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+  display: flex;
+
+  transform: translateY(12px);
+}
+
+/* .type {
+  transform: translateY(-100px);
+} */

@@ -1,8 +1,9 @@
 import React from "react";
-import { Box, AppBar, Toolbar, Typography } from "@mui/material";
+import { Box, AppBar, Toolbar, Typography, Tooltip } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import IconButton from "@mui/material/IconButton";
+import EmailIcon from "@mui/icons-material/Email";
 import { NavHashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 const Navbar = () => {
@@ -16,11 +17,20 @@ const Navbar = () => {
             </NavHashLink>
           </Typography>
           <Typography align="right" sx={{ color: "#D8F3DC", ml: 3 }}>
+            <NavHashLink className="nav-link" smooth to="/#tech">
+              Tech
+            </NavHashLink>
+          </Typography>
+          <Typography align="right" sx={{ color: "#D8F3DC", ml: 3 }}>
             <NavHashLink className="nav-link" smooth to="/#projects">
               Projects
             </NavHashLink>
           </Typography>
-
+          <a href="mailto:rachel.eckert13@gmail.com">
+            <Tooltip title="Contact me" placement="bottom">
+              <EmailIcon className="icons" sx={{ ml: 3 }} />
+            </Tooltip>
+          </a>
           <a
             href="https://www.linkedin.com/in/rachel--eckert/"
             target="_blank"
