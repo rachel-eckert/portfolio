@@ -21435,6 +21435,7 @@ var Navbar = function Navbar() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
+    variant: "h5",
     sx: {
       color: "#D8F3DC",
       ml: "auto"
@@ -21445,9 +21446,10 @@ var Navbar = function Navbar() {
     to: "/#about"
   }, "About me")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
+    variant: "h5",
     sx: {
       color: "#D8F3DC",
-      ml: 3
+      ml: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_hash_link__WEBPACK_IMPORTED_MODULE_5__.NavHashLink, {
     className: "nav-link",
@@ -21455,9 +21457,10 @@ var Navbar = function Navbar() {
     to: "/#tech"
   }, "Tech")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
     align: "right",
+    variant: "h5",
     sx: {
       color: "#D8F3DC",
-      ml: 3
+      ml: 5
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_hash_link__WEBPACK_IMPORTED_MODULE_5__.NavHashLink, {
     className: "nav-link",
@@ -21530,7 +21533,10 @@ var Portfolio = function Portfolio() {
     container: true,
     justifyContent: "center",
     alignItems: "center",
-    id: "projects"
+    id: "projects",
+    sx: {
+      justifyContent: "center"
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], {
     className: "box",
     sx: {
@@ -21544,12 +21550,19 @@ var Portfolio = function Portfolio() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
     variant: "h4",
     sx: {
-      mb: 10
+      mt: 5
     }
-  }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    container: true
+    // spacing={{ xs: 1, sm: 2, md: 3 }}
+    ,
+    columns: {
+      xs: 2,
+      sm: 4,
+      md: 6
+    },
     sx: {
-      display: "flex",
-      flexDirection: "row"
+      justifyContent: "center"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.div, {
     whileHover: {
@@ -21566,7 +21579,7 @@ var Portfolio = function Portfolio() {
       height: 350,
       bgcolor: "#95D5B2",
       color: "#081C15",
-      mr: 10
+      m: 3
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
     component: "img",
@@ -21605,7 +21618,7 @@ var Portfolio = function Portfolio() {
       height: 350,
       bgcolor: "#95D5B2",
       color: "#081C15",
-      mr: 10
+      m: 3
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
     component: "img",
@@ -21662,7 +21675,8 @@ var Portfolio = function Portfolio() {
       width: 350,
       height: 350,
       bgcolor: "#95D5B2",
-      color: "#081C15"
+      color: "#081C15",
+      m: 3
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
     component: "img",
@@ -21724,7 +21738,6 @@ var Tech = function Tech() {
     alignItems: "center",
     flexDirection: "column"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    id: "about",
     className: "box",
     sx: {
       display: "flex",

@@ -10,7 +10,6 @@ const Tech = () => {
       alignItems="center"
       flexDirection="column">
       <Box
-        id="about"
         className="box"
         sx={{
           display: "flex",
