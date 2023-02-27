@@ -11,17 +11,26 @@ const Navbar = () => {
     <Box display="flex" sx={{ mb: 10 }}>
       <AppBar position="fixed" elevation={0} sx={{ bgcolor: "#1B4332" }}>
         <Toolbar>
-          <Typography align="right" sx={{ color: "#D8F3DC", ml: "auto" }}>
+          <Typography
+            align="right"
+            variant="h5"
+            sx={{ color: "#D8F3DC", ml: "auto" }}>
             <NavHashLink className="nav-link" smooth to="/#about">
               About me
             </NavHashLink>
           </Typography>
-          <Typography align="right" sx={{ color: "#D8F3DC", ml: 3 }}>
+          <Typography
+            align="right"
+            variant="h5"
+            sx={{ color: "#D8F3DC", ml: 5 }}>
             <NavHashLink className="nav-link" smooth to="/#tech">
               Tech
             </NavHashLink>
           </Typography>
-          <Typography align="right" sx={{ color: "#D8F3DC", ml: 3 }}>
+          <Typography
+            align="right"
+            variant="h5"
+            sx={{ color: "#D8F3DC", ml: 5 }}>
             <NavHashLink className="nav-link" smooth to="/#projects">
               Projects
             </NavHashLink>
