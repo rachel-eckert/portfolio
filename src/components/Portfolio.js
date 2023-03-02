@@ -107,16 +107,28 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               <Box
+                className="gitlink3"
                 sx={{
-                  justifyContent: "flex-end",
+                  display: "flex",
+                  alignContent: "flex-end",
+                  flexDirection: "row",
                 }}>
                 <a
-                  className="gitlink2"
+                  className="gitlink"
                   href="https://github.com/rachel-eckert/Sdv-wiki"
                   target="_blank"
                   rel="noopener noreferrer">
                   <GitHubIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
                 </a>
+                <Tooltip title="View deployed site" placement="bottom">
+                  <a
+                    className="gitlink"
+                    href="https://sdv-mock-wiki.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <CallMadeIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
+                  </a>
+                </Tooltip>
               </Box>
             </Card>
           </motion.div>

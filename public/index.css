@@ -95,7 +95,14 @@ html {
 
   transform: translateY(12px);
 }
+.gitlink3 {
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+  display: flex;
 
+  transform: translateY(18px);
+}
 /* .type {
   transform: translateY(-100px);
 } */
