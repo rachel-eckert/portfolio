@@ -7,16 +7,16 @@
 * CSS
 * Material-UI
 
-## Deployed
+## Project Setup
 
 Deployed [on Render](cheleckert.onrender.com)
 
   OR
 
 Clone to your machine then:
-  * npm i
-  * npm start
-  * view on localhost:3000
+  * Install NPM: npm i
+  * Start the server: npm start
+  * Open http://localhost:3000 to view it in your browser
   
   
 
