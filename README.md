@@ -1,13 +1,13 @@
-## Rachel Eckert's Portfolio
+# Rachel Eckert's Portfolio
 
 
-# Tech stack
+## Tech stack
 
 * ReactJS
 * CSS
 * Material-UI
 
-# Deployed
+## Deployed
 
 Deployed [on Render](cheleckert.onrender.com)
 
