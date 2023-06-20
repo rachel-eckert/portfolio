@@ -21653,21 +21653,7 @@ var Portfolio = function Portfolio() {
       mr: 1,
       mb: 1
     }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    title: "View deployed site",
-    placement: "bottom"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    className: "gitlink",
-    href: "https://sdv-mock-wiki.onrender.com/",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_CallMade__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    sx: {
-      color: "#000000",
-      mr: 1,
-      mb: 1
-    }
-  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.div, {
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.div, {
     whileHover: {
       scale: 1.1
     },
@@ -21717,6 +21703,64 @@ var Portfolio = function Portfolio() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     className: "gitlink",
     href: "https://toads-garden.onrender.com/",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_CallMade__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    sx: {
+      color: "#000000",
+      mr: 1,
+      mb: 1
+    }
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_4__.motion.div, {
+    whileHover: {
+      scale: 1.1
+    },
+    transition: {
+      type: "spring",
+      stiffness: 200,
+      damping: 10
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    sx: {
+      width: 350,
+      height: 350,
+      bgcolor: "#95D5B2",
+      color: "#081C15",
+      m: 3
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    component: "img",
+    image: "https://npr.brightspotcdn.com/legacy/sites/wgcu/files/201504/american_alligators.jpg",
+    sx: {
+      width: 350,
+      height: 200
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: "type"
+  }, "Crocodile Education"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], null, "An educational site pertaining to crocodilians made with the PERN stack and Typescript.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: "gitlink",
+    sx: {
+      display: "flex",
+      alignContent: "flex-end",
+      flexDirection: "row"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "gitlink",
+    href: "https://github.com/rachel-eckert/crocodile-education",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_GitHub__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    sx: {
+      color: "#000000",
+      mr: 1,
+      mb: 1
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    title: "View deployed site",
+    placement: "bottom"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "gitlink",
+    href: "https://crocodile-education.onrender.com/",
     target: "_blank",
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_CallMade__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -21867,6 +21911,13 @@ var Tech = function Tech() {
       mr: 1
     },
     label: "Phaser3"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    sx: {
+      color: "#081C15",
+      bgcolor: "#74C69D",
+      mr: 1
+    },
+    label: "Typescript"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Tech);

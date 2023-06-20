@@ -120,15 +120,6 @@ const Portfolio = () => {
                   rel="noopener noreferrer">
                   <GitHubIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
                 </a>
-                <Tooltip title="View deployed site" placement="bottom">
-                  <a
-                    className="gitlink"
-                    href="https://sdv-mock-wiki.onrender.com/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <CallMadeIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
-                  </a>
-                </Tooltip>
               </Box>
             </Card>
           </motion.div>
@@ -174,6 +165,56 @@ const Portfolio = () => {
                   <a
                     className="gitlink"
                     href="https://toads-garden.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <CallMadeIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
+                  </a>
+                </Tooltip>
+              </Box>
+            </Card>
+          </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 200, damping: 10 }}>
+            <Card
+              sx={{
+                width: 350,
+                height: 350,
+                bgcolor: "#95D5B2",
+                color: "#081C15",
+                m: 3,
+              }}>
+              <CardMedia
+                component="img"
+                image="https://npr.brightspotcdn.com/legacy/sites/wgcu/files/201504/american_alligators.jpg"
+                sx={{ width: 350, height: 200 }}
+              />
+
+              <CardContent>
+                <Typography className="type">Crocodile Education</Typography>
+                <Typography>
+                  An educational site pertaining to crocodilians made with the
+                  PERN stack and Typescript.
+                </Typography>
+              </CardContent>
+              <Box
+                className="gitlink"
+                sx={{
+                  display: "flex",
+                  alignContent: "flex-end",
+                  flexDirection: "row",
+                }}>
+                <a
+                  className="gitlink"
+                  href="https://github.com/rachel-eckert/crocodile-education"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <GitHubIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />
+                </a>
+                <Tooltip title="View deployed site" placement="bottom">
+                  <a
+                    className="gitlink"
+                    href="https://crocodile-education.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer">
                     <CallMadeIcon sx={{ color: "#000000", mr: 1, mb: 1 }} />

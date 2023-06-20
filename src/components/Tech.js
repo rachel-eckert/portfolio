@@ -78,6 +78,10 @@ const Tech = () => {
               sx={{ color: "#081C15", bgcolor: "#74C69D", mr: 1 }}
               label="Phaser3"
             />
+            <Chip
+              sx={{ color: "#081C15", bgcolor: "#74C69D", mr: 1 }}
+              label="Typescript"
+            />
           </Box>
         </div>
       </Box>
